@@ -1,16 +1,21 @@
 ﻿# Android Emergency SOS SDK
 
+## 📦 Registry & Repository
+
+- **Maven Central**: [io.github.amitgaikwad2837:android-emergency-sos-sdk](https://central.sonatype.com/artifact/io.github.amitgaikwad2837/android-emergency-sos-sdk)
+- **GitHub**: [amitgaikwad2837/android-emergency-sos-sdk](https://github.com/amitgaikwad2837/android-emergency-sos-sdk)
+
 ## Overview
 
-Emergency SOS SDK for fast emergency response
+Emergency SOS framework for rapid emergency response and support for vulnerable individuals. Features manual SOS triggers, shake detection, voice triggers, automatic location sharing, and emergency contact management.
 
 ## Installation
 
-Add the Maven dependency once artifacts are published:
+Add the Maven dependency:
 
 ~~~kotlin
 dependencies {
-  implementation("io.github.amitgaikwad2837:android-emergency-sos-sdk:1.0.0")
+  implementation("io.github.amitgaikwad2837:android-emergency-sos-sdk:0.0.9")
 }
 ~~~
 
