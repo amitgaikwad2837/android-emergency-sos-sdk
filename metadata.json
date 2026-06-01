@@ -1,0 +1,25 @@
+{
+  "name": "android-emergency-sos-sdk",
+  "version": "1.0.0",
+  "description": "Emergency SOS SDK for fast emergency response",
+  "platform": "android",
+  "category": "safety-emergency",
+  "minSdk": 24,
+  "targetSdk": 34,
+  "language": "kotlin",
+  "buildSystem": "gradle",
+  "features": [
+    "manual-sos",
+    "shake-detection",
+    "voice-trigger",
+    "gps-collection",
+    "emergency-contacts",
+    "background-monitoring"
+  ],
+  "permissions": [
+    "ACCESS_FINE_LOCATION",
+    "RECORD_AUDIO",
+    "INTERNET"
+  ],
+  "tags": ["android", "safety", "emergency", "sos"]
+}
